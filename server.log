@@ -1,0 +1,6 @@
+[INFO] Service started successfully.
+[DEBUG] Connection established from 192.168.1.10.
+[INFO] User 'admin' logged in.
+[WARN] Disk space is running low. 85% used.
+[ERROR] Failed to connect to database.
+[INFO] User 'guest' logged in.
