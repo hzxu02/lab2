@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1763443345,,"wq!"
+|2,0,1763466540,,"wq!"
 :wq
 |2,0,1763434602,,"wq"
 :qw
@@ -46,71 +46,89 @@
 
 # Registers:
 ""1	LINE	0
-	#include <stdio.h>
-|3,1,1,1,1,0,1763442320,"#include <stdio.h>"
+	/*
+|3,1,1,1,1,0,1763466150,"/*"
 "2	LINE	0
-	#include <stdlib.h>
-|3,0,2,1,1,0,1763442320,"#include <stdlib.h>"
+	 * 7장 파일 처리
+|3,0,2,1,1,0,1763466150," * 7장 파일 처리"
 "3	LINE	0
-	#include <string.h>
-|3,0,3,1,1,0,1763442320,"#include <string.h>"
+	 * 파일 이름: typingtest.c
+|3,0,3,1,1,0,1763466150," * 파일 이름: typingtest.c"
 "4	LINE	0
-	#include <dirent.h>
-|3,0,4,1,1,0,1763442320,"#include <dirent.h>"
+	 */
+|3,0,4,1,1,0,1763466150," */"
 "5	LINE	0
-	#include <sys/stat.h>
-|3,0,5,1,1,0,1763442320,"#include <sys/stat.h>"
-"6	LINE	0
-	#include <errno.h>
-|3,0,6,1,1,0,1763442320,"#include <errno.h>"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1763442320,""
+|3,0,5,1,1,0,1763466150,""
+"6	LINE	0
+	#include <stdio.h>
+|3,0,6,1,1,0,1763466150,"#include <stdio.h>"
+"7	LINE	0
+	#include <termios.h>     // 터미널 제어
+|3,0,7,1,1,0,1763466150,"#include <termios.h>     // 터미널 제어"
 "8	LINE	0
-	// 재귀적으로 디렉토리를 탐색하는 함수
-|3,0,8,1,1,0,1763442320,"// 재귀적으로 디렉토리를 탐색하는 함수"
+	#include <sys/types.h>
+|3,0,8,1,1,0,1763466150,"#include <sys/types.h>"
 "9	LINE	0
-	void list_directory_recursive(const char *base_path) {
-|3,0,9,1,1,0,1763442320,"void list_directory_recursive(const char *base_path) {"
+	#include <fcntl.h>       // open()
+|3,0,9,1,1,0,1763466150,"#include <fcntl.h>       // open()"
 "-	CHAR	0
 	습
 |3,0,36,0,1,0,1760799705,"습"
 
 # File marks:
-'0  59  0  ~/ls_R_demo.c
-|4,48,59,0,1763443345,"~/ls_R_demo.c"
+'0  90  0  ~/typingtest.c
+|4,48,90,0,1763466540,"~/typingtest.c"
 '1  59  0  ~/ls_R_demo.c
-|4,49,59,0,1763442326,"~/ls_R_demo.c"
-'2  1  0  ~/ls_R_demo.c
-|4,50,1,0,1763442010,"~/ls_R_demo.c"
-'3  68  0  ~/ls_R_demo.c
-|4,51,68,0,1763442010,"~/ls_R_demo.c"
-'4  1  0  ~/ls_R_demo.c
-|4,52,1,0,1763442010,"~/ls_R_demo.c"
-'5  68  0  ~/ls_R_demo.c
-|4,53,68,0,1763442010,"~/ls_R_demo.c"
-'6  1  0  ~/ls_R_demo.c
-|4,54,1,0,1763441681,"~/ls_R_demo.c"
-'7  78  0  ~/ls_R_demo.c
-|4,55,78,0,1763441681,"~/ls_R_demo.c"
-'8  1  0  ~/ls_R_demo.c
-|4,56,1,0,1763441681,"~/ls_R_demo.c"
-'9  88  0  ~/ls_R_demo.c
-|4,57,88,0,1763441681,"~/ls_R_demo.c"
+|4,49,59,0,1763443345,"~/ls_R_demo.c"
+'2  59  0  ~/ls_R_demo.c
+|4,50,59,0,1763442326,"~/ls_R_demo.c"
+'3  1  0  ~/ls_R_demo.c
+|4,51,1,0,1763442010,"~/ls_R_demo.c"
+'4  68  0  ~/ls_R_demo.c
+|4,52,68,0,1763442010,"~/ls_R_demo.c"
+'5  1  0  ~/ls_R_demo.c
+|4,53,1,0,1763442010,"~/ls_R_demo.c"
+'6  68  0  ~/ls_R_demo.c
+|4,54,68,0,1763442010,"~/ls_R_demo.c"
+'7  1  0  ~/ls_R_demo.c
+|4,55,1,0,1763441681,"~/ls_R_demo.c"
+'8  78  0  ~/ls_R_demo.c
+|4,56,78,0,1763441681,"~/ls_R_demo.c"
+'9  1  0  ~/ls_R_demo.c
+|4,57,1,0,1763441681,"~/ls_R_demo.c"
 
 # Jumplist (newest first):
+-'  90  0  ~/typingtest.c
+|4,39,90,0,1763466540,"~/typingtest.c"
+-'  1  14  ~/typingtest.c
+|4,39,1,14,1763466109,"~/typingtest.c"
 -'  59  0  ~/ls_R_demo.c
 |4,39,59,0,1763443345,"~/ls_R_demo.c"
+-'  59  0  ~/ls_R_demo.c
+|4,39,59,0,1763443345,"~/ls_R_demo.c"
+-'  59  0  ~/ls_R_demo.c
+|4,39,59,0,1763442326,"~/ls_R_demo.c"
 -'  59  0  ~/ls_R_demo.c
 |4,39,59,0,1763442326,"~/ls_R_demo.c"
 -'  1  0  ~/ls_R_demo.c
 |4,39,1,0,1763442314,"~/ls_R_demo.c"
 -'  1  0  ~/ls_R_demo.c
 |4,39,1,0,1763442314,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763442314,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763442314,"~/ls_R_demo.c"
 -'  68  0  ~/ls_R_demo.c
 |4,39,68,0,1763442010,"~/ls_R_demo.c"
 -'  68  0  ~/ls_R_demo.c
 |4,39,68,0,1763442010,"~/ls_R_demo.c"
+-'  68  0  ~/ls_R_demo.c
+|4,39,68,0,1763442010,"~/ls_R_demo.c"
+-'  68  0  ~/ls_R_demo.c
+|4,39,68,0,1763442010,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763441995,"~/ls_R_demo.c"
 -'  1  0  ~/ls_R_demo.c
 |4,39,1,0,1763441995,"~/ls_R_demo.c"
 -'  78  0  ~/ls_R_demo.c
@@ -121,6 +139,16 @@
 |4,39,78,0,1763441681,"~/ls_R_demo.c"
 -'  88  0  ~/ls_R_demo.c
 |4,39,88,0,1763441681,"~/ls_R_demo.c"
+-'  78  0  ~/ls_R_demo.c
+|4,39,78,0,1763441681,"~/ls_R_demo.c"
+-'  88  0  ~/ls_R_demo.c
+|4,39,88,0,1763441681,"~/ls_R_demo.c"
+-'  78  0  ~/ls_R_demo.c
+|4,39,78,0,1763441681,"~/ls_R_demo.c"
+-'  88  0  ~/ls_R_demo.c
+|4,39,88,0,1763441681,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763441674,"~/ls_R_demo.c"
 -'  1  0  ~/ls_R_demo.c
 |4,39,1,0,1763441674,"~/ls_R_demo.c"
 -'  144  0  ~/ls_R_demo.c
@@ -141,6 +169,26 @@
 |4,39,175,0,1763441646,"~/ls_R_demo.c"
 -'  88  0  ~/ls_R_demo.c
 |4,39,88,0,1763441646,"~/ls_R_demo.c"
+-'  144  0  ~/ls_R_demo.c
+|4,39,144,0,1763441646,"~/ls_R_demo.c"
+-'  165  0  ~/ls_R_demo.c
+|4,39,165,0,1763441646,"~/ls_R_demo.c"
+-'  154  0  ~/ls_R_demo.c
+|4,39,154,0,1763441646,"~/ls_R_demo.c"
+-'  175  0  ~/ls_R_demo.c
+|4,39,175,0,1763441646,"~/ls_R_demo.c"
+-'  144  0  ~/ls_R_demo.c
+|4,39,144,0,1763441646,"~/ls_R_demo.c"
+-'  165  0  ~/ls_R_demo.c
+|4,39,165,0,1763441646,"~/ls_R_demo.c"
+-'  154  0  ~/ls_R_demo.c
+|4,39,154,0,1763441646,"~/ls_R_demo.c"
+-'  175  0  ~/ls_R_demo.c
+|4,39,175,0,1763441646,"~/ls_R_demo.c"
+-'  88  0  ~/ls_R_demo.c
+|4,39,88,0,1763441646,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763441367,"~/ls_R_demo.c"
 -'  1  0  ~/ls_R_demo.c
 |4,39,1,0,1763441367,"~/ls_R_demo.c"
 -'  58  0  ~/file_dir_demo.c
@@ -208,99 +256,60 @@
 -'  58  0  ~/file_dir_demo.c
 |4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  58  0  ~/file_dir_demo.c
-|4,39,58,0,1763436870,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  1  0  ~/file_dir_demo.c
-|4,39,1,0,1763436855,"~/file_dir_demo.c"
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/typingtest.c
+	*	1763466538	0
+	"	90	0
+	^	90	1
+	.	90	0
+	+	1	14
+	+	1	18
+	+	90	0
 
 > ~/ls_R_demo.c
 	*	1763443341	0
@@ -329,13 +338,6 @@
 	+	27	71
 	+	29	0
 	+	23	70
-
-> ~/typingtest.c
-	*	1762220254	0
-	"	61	0
-	^	61	0
-	.	60	1
-	+	60	1
 
 > ~/file_output.c
 	*	1762217355	0
