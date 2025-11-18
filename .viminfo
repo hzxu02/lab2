@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1763437791,,"wq!"
+|2,0,1763443345,,"wq!"
 :wq
 |2,0,1763434602,,"wq"
 :qw
@@ -46,261 +46,270 @@
 
 # Registers:
 ""1	LINE	0
-	fn main() {
-|3,1,1,1,1,0,1763434589,"fn main() {"
-"2	LINE	0
-	}
-|3,0,2,1,1,0,1763434588,"}"
-"3	LINE	0
-	    println!("Hello, world!");
-|3,0,3,1,1,0,1763434586,"    println!(\"Hello, world!\");"
-"4	LINE	0
 	#include <stdio.h>
-|3,0,4,1,1,0,1762217216,"#include <stdio.h>"
+|3,1,1,1,1,0,1763442320,"#include <stdio.h>"
+"2	LINE	0
+	#include <stdlib.h>
+|3,0,2,1,1,0,1763442320,"#include <stdlib.h>"
+"3	LINE	0
+	#include <string.h>
+|3,0,3,1,1,0,1763442320,"#include <string.h>"
+"4	LINE	0
+	#include <dirent.h>
+|3,0,4,1,1,0,1763442320,"#include <dirent.h>"
 "5	LINE	0
-	 #include <sys/stat.h>
-|3,0,5,1,1,0,1762217216," #include <sys/stat.h>"
+	#include <sys/stat.h>
+|3,0,5,1,1,0,1763442320,"#include <sys/stat.h>"
 "6	LINE	0
-	 #include <fcntl.h>
-|3,0,6,1,1,0,1762217216," #include <fcntl.h>"
+	#include <errno.h>
+|3,0,6,1,1,0,1763442320,"#include <errno.h>"
 "7	LINE	0
-	 #include <unistd.h>
-|3,0,7,1,1,0,1762217216," #include <unistd.h>"
+	
+|3,0,7,1,1,0,1763442320,""
 "8	LINE	0
-	 int main(int argc, char *argv[])
-|3,0,8,1,1,0,1762217216," int main(int argc, char *argv[])"
+	// 재귀적으로 디렉토리를 탐색하는 함수
+|3,0,8,1,1,0,1763442320,"// 재귀적으로 디렉토리를 탐색하는 함수"
 "9	LINE	0
-	 {
-|3,0,9,1,1,0,1762217216," {"
+	void list_directory_recursive(const char *base_path) {
+|3,0,9,1,1,0,1763442320,"void list_directory_recursive(const char *base_path) {"
 "-	CHAR	0
 	습
 |3,0,36,0,1,0,1760799705,"습"
 
 # File marks:
-'0  58  0  ~/file_dir_demo.c
-|4,48,58,0,1763437791,"~/file_dir_demo.c"
-'1  58  0  ~/file_dir_demo.c
-|4,49,58,0,1763436870,"~/file_dir_demo.c"
-'2  105  0  ~/martix_addition/src/main.rs
-|4,50,105,0,1763435891,"~/martix_addition/src/main.rs"
-'3  1  11  ~/martix_addition/src/main.rs
-|4,51,1,11,1763435630,"~/martix_addition/src/main.rs"
-'4  1  11  ~/martix_addition/src/main.rs
-|4,52,1,11,1763435630,"~/martix_addition/src/main.rs"
-'5  105  0  ~/martix_addition/src/main.rs
-|4,53,105,0,1763435551,"~/martix_addition/src/main.rs"
-'6  105  0  ~/martix_addition/src/main.rs
-|4,54,105,0,1763435551,"~/martix_addition/src/main.rs"
-'7  105  0  ~/martix_addition/src/main.rs
-|4,55,105,0,1763435551,"~/martix_addition/src/main.rs"
-'8  105  0  ~/martix_addition/src/main.rs
-|4,56,105,0,1763434602,"~/martix_addition/src/main.rs"
-'9  105  0  ~/martix_addition/src/main.rs
-|4,57,105,0,1763434602,"~/martix_addition/src/main.rs"
+'0  59  0  ~/ls_R_demo.c
+|4,48,59,0,1763443345,"~/ls_R_demo.c"
+'1  59  0  ~/ls_R_demo.c
+|4,49,59,0,1763442326,"~/ls_R_demo.c"
+'2  1  0  ~/ls_R_demo.c
+|4,50,1,0,1763442010,"~/ls_R_demo.c"
+'3  68  0  ~/ls_R_demo.c
+|4,51,68,0,1763442010,"~/ls_R_demo.c"
+'4  1  0  ~/ls_R_demo.c
+|4,52,1,0,1763442010,"~/ls_R_demo.c"
+'5  68  0  ~/ls_R_demo.c
+|4,53,68,0,1763442010,"~/ls_R_demo.c"
+'6  1  0  ~/ls_R_demo.c
+|4,54,1,0,1763441681,"~/ls_R_demo.c"
+'7  78  0  ~/ls_R_demo.c
+|4,55,78,0,1763441681,"~/ls_R_demo.c"
+'8  1  0  ~/ls_R_demo.c
+|4,56,1,0,1763441681,"~/ls_R_demo.c"
+'9  88  0  ~/ls_R_demo.c
+|4,57,88,0,1763441681,"~/ls_R_demo.c"
 
 # Jumplist (newest first):
+-'  59  0  ~/ls_R_demo.c
+|4,39,59,0,1763443345,"~/ls_R_demo.c"
+-'  59  0  ~/ls_R_demo.c
+|4,39,59,0,1763442326,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763442314,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763442314,"~/ls_R_demo.c"
+-'  68  0  ~/ls_R_demo.c
+|4,39,68,0,1763442010,"~/ls_R_demo.c"
+-'  68  0  ~/ls_R_demo.c
+|4,39,68,0,1763442010,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763441995,"~/ls_R_demo.c"
+-'  78  0  ~/ls_R_demo.c
+|4,39,78,0,1763441681,"~/ls_R_demo.c"
+-'  88  0  ~/ls_R_demo.c
+|4,39,88,0,1763441681,"~/ls_R_demo.c"
+-'  78  0  ~/ls_R_demo.c
+|4,39,78,0,1763441681,"~/ls_R_demo.c"
+-'  88  0  ~/ls_R_demo.c
+|4,39,88,0,1763441681,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763441674,"~/ls_R_demo.c"
+-'  144  0  ~/ls_R_demo.c
+|4,39,144,0,1763441646,"~/ls_R_demo.c"
+-'  165  0  ~/ls_R_demo.c
+|4,39,165,0,1763441646,"~/ls_R_demo.c"
+-'  154  0  ~/ls_R_demo.c
+|4,39,154,0,1763441646,"~/ls_R_demo.c"
+-'  175  0  ~/ls_R_demo.c
+|4,39,175,0,1763441646,"~/ls_R_demo.c"
+-'  144  0  ~/ls_R_demo.c
+|4,39,144,0,1763441646,"~/ls_R_demo.c"
+-'  165  0  ~/ls_R_demo.c
+|4,39,165,0,1763441646,"~/ls_R_demo.c"
+-'  154  0  ~/ls_R_demo.c
+|4,39,154,0,1763441646,"~/ls_R_demo.c"
+-'  175  0  ~/ls_R_demo.c
+|4,39,175,0,1763441646,"~/ls_R_demo.c"
+-'  88  0  ~/ls_R_demo.c
+|4,39,88,0,1763441646,"~/ls_R_demo.c"
+-'  1  0  ~/ls_R_demo.c
+|4,39,1,0,1763441367,"~/ls_R_demo.c"
 -'  58  0  ~/file_dir_demo.c
 |4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763437791,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
+-'  58  0  ~/file_dir_demo.c
+|4,39,58,0,1763436870,"~/file_dir_demo.c"
 -'  58  0  ~/file_dir_demo.c
 |4,39,58,0,1763436870,"~/file_dir_demo.c"
 -'  1  0  ~/file_dir_demo.c
 |4,39,1,0,1763436855,"~/file_dir_demo.c"
 -'  1  0  ~/file_dir_demo.c
 |4,39,1,0,1763436855,"~/file_dir_demo.c"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435891,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435891,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435891,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435891,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435640,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435640,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435640,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435640,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435630,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435630,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435630,"~/martix_addition/src/main.rs"
--'  1  11  ~/martix_addition/src/main.rs
-|4,39,1,11,1763435630,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435577,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435577,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435577,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435577,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435551,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435551,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435551,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763435551,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763434602,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763434602,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763434602,"~/martix_addition/src/main.rs"
--'  105  0  ~/martix_addition/src/main.rs
-|4,39,105,0,1763434602,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  1  0  ~/martix_addition/src/main.rs
-|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
--'  61  0  ~/typingtest.c
-|4,39,61,0,1762220255,"~/typingtest.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
+-'  1  0  ~/file_dir_demo.c
+|4,39,1,0,1763436855,"~/file_dir_demo.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/ls_R_demo.c
+	*	1763443341	0
+	"	59	0
+	^	59	1
+	.	59	0
+	+	144	0
+	+	1	18
+	+	59	0
 
 > ~/file_dir_demo.c
 	*	1763437790	0

@@ -750,3 +750,30 @@ touch main.rs
 vi main.rs
 cargo run
 vi main.rs
+ls
+cd martix_addition
+cd src
+vi main.rs
+cargo run
+cd lab
+cd .
+cd ~
+cd lab
+git add .
+git commit -m " lab2 실습2 : Rust 행렬 덧셈 프로그램"
+git push origin master
+cd ~
+git add .
+git commit -m " lab2 실습2 : Rust 행렬 덧셈 프로그램"
+git push origin master
+ls
+touch file_dir_demo.c
+vi file_dir_demo.c
+gcc -o file_dir_demo file_dir_demo.c
+./file_dir_demo
+git add .
+gir commit -m" lab2 실습3 : C언어 파일 및 디렉토리 함수 사용"
+git commit -m "lab2 실습3 : C언어 파일 및 디렉토리 함수 사용"
+git push origin master
+touch ls_R_demo.c
+vi ls_R_demo.c
