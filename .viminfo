@@ -12,7 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1760885887,,"wq"
+|2,0,1762220255,,"wq"
+:qw
+|2,0,1762215443,,"qw"
 :ㅈㅂ
 |2,0,1760869655,,"ㅈㅂ"
 :Wq
@@ -44,261 +46,348 @@
 
 # Registers:
 ""1	LINE	0
-	# 컴파일러 및 플래그 정의 (매크로)
-|3,1,1,1,1,0,1760881891,"# 컴파일러 및 플래그 정의 (매크로)"
+	#include <stdio.h>
+|3,1,1,1,1,0,1762217216,"#include <stdio.h>"
 "2	LINE	0
-	CC = gcc
-|3,0,2,1,1,0,1760881891,"CC = gcc"
+	 #include <sys/stat.h>
+|3,0,2,1,1,0,1762217216," #include <sys/stat.h>"
 "3	LINE	0
-	CFLAGS = -Wall -I./include
-|3,0,3,1,1,0,1760881890,"CFLAGS = -Wall -I./include"
+	 #include <fcntl.h>
+|3,0,3,1,1,0,1762217216," #include <fcntl.h>"
 "4	LINE	0
-	LDFLAGS = -L./lib
-|3,0,4,1,1,0,1760881890,"LDFLAGS = -L./lib"
+	 #include <unistd.h>
+|3,0,4,1,1,0,1762217216," #include <unistd.h>"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1760881890,""
+	 int main(int argc, char *argv[])
+|3,0,5,1,1,0,1762217216," int main(int argc, char *argv[])"
 "6	LINE	0
-	# 생성될 파일 및 디렉토리 이름 정의
-|3,0,6,1,1,0,1760881890,"# 생성될 파일 및 디렉토리 이름 정의"
+	 {
+|3,0,6,1,1,0,1762217216," {"
 "7	LINE	0
-	TARGET_STATIC = main_static
-|3,0,7,1,1,0,1760881890,"TARGET_STATIC = main_static"
+	 int fd;  /* file descriptor */
+|3,0,7,1,1,0,1762217216," int fd;  /* file descriptor */"
 "8	LINE	0
-	TARGET_SHARED = main_shared
-|3,0,8,1,1,0,1760881890,"TARGET_SHARED = main_shared"
+	 char *buf = "This is a test output file.\n";
+|3,0,8,1,1,0,1762217215," char *buf = \"This is a test output file.\\n\";"
 "9	LINE	0
-	LIB_DIR = lib
-|3,0,9,1,1,0,1760881890,"LIB_DIR = lib"
+	 int flags = O_WRONLY | O_CREAT | O_TRUNC;
+|3,0,9,1,1,0,1762217215," int flags = O_WRONLY | O_CREAT | O_TRUNC;"
 "-	CHAR	0
 	습
 |3,0,36,0,1,0,1760799705,"습"
 
 # File marks:
-'0  2  25  ~/.gitignore
-|4,48,2,25,1760885887,"~/.gitignore"
-'1  3  14  ~/.gitignore
-|4,49,3,14,1760884996,"~/.gitignore"
-'2  2  14  ~/.gitignore
-|4,50,2,14,1760884996,"~/.gitignore"
-'3  41  33  ~/Makefile
-|4,51,41,33,1760882503,"~/Makefile"
-'4  45  62  ~/Makefile
-|4,52,45,62,1760881907,"~/Makefile"
-'5  45  62  ~/Makefile
-|4,53,45,62,1760881907,"~/Makefile"
-'6  1  62  ~/Makefile
-|4,54,1,62,1760881728,"~/Makefile"
-'7  44  62  ~/Makefile
-|4,55,44,62,1760881728,"~/Makefile"
-'8  1  62  ~/Makefile
-|4,56,1,62,1760881728,"~/Makefile"
-'9  44  62  ~/Makefile
-|4,57,44,62,1760881728,"~/Makefile"
+'0  61  0  ~/typingtest.c
+|4,48,61,0,1762220255,"~/typingtest.c"
+'1  52  0  ~/file_output.c
+|4,49,52,0,1762217356,"~/file_output.c"
+'2  52  0  ~/file_output.c
+|4,50,52,0,1762217228,"~/file_output.c"
+'3  1  59  ~/file_output.c
+|4,51,1,59,1762217156,"~/file_output.c"
+'4  18  59  ~/file_output.c
+|4,52,18,59,1762217156,"~/file_output.c"
+'5  1  59  ~/file_output.c
+|4,53,1,59,1762217156,"~/file_output.c"
+'6  18  59  ~/file_output.c
+|4,54,18,59,1762217156,"~/file_output.c"
+'7  26  0  ~/file_size.c
+|4,55,26,0,1762215594,"~/file_size.c"
+'8  21  51  ~/file_create.c
+|4,56,21,51,1762215444,"~/file_create.c"
+'9  21  51  ~/file_create.c
+|4,57,21,51,1762215306,"~/file_create.c"
 
 # Jumplist (newest first):
--'  2  25  ~/.gitignore
-|4,39,2,25,1760885887,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1760885872,"~/.gitignore"
--'  3  14  ~/.gitignore
-|4,39,3,14,1760884996,"~/.gitignore"
--'  2  14  ~/.gitignore
-|4,39,2,14,1760884996,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1760884970,"~/.gitignore"
--'  41  33  ~/Makefile
-|4,39,41,33,1760882503,"~/Makefile"
--'  41  33  ~/Makefile
-|4,39,41,33,1760882503,"~/Makefile"
--'  41  33  ~/Makefile
-|4,39,41,33,1760882503,"~/Makefile"
--'  41  33  ~/Makefile
-|4,39,41,33,1760882503,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760882237,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760882237,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760882237,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760882237,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760881907,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760881907,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760881907,"~/Makefile"
--'  45  62  ~/Makefile
-|4,39,45,62,1760881907,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  1  62  ~/Makefile
-|4,39,1,62,1760881878,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881728,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881681,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881681,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881681,"~/Makefile"
--'  44  62  ~/Makefile
-|4,39,44,62,1760881681,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  1  0  ~/Makefile
-|4,39,1,0,1760870220,"~/Makefile"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
--'  23  39  ~/main_dynamic.c
-|4,39,23,39,1760869657,"~/main_dynamic.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  1  59  ~/file_output.c
+|4,39,1,59,1762217168,"~/file_output.c"
+-'  1  59  ~/file_output.c
+|4,39,1,59,1762217168,"~/file_output.c"
+-'  1  59  ~/file_output.c
+|4,39,1,59,1762217168,"~/file_output.c"
+-'  1  59  ~/file_output.c
+|4,39,1,59,1762217168,"~/file_output.c"
+-'  18  59  ~/file_output.c
+|4,39,18,59,1762217156,"~/file_output.c"
+-'  18  59  ~/file_output.c
+|4,39,18,59,1762217156,"~/file_output.c"
+-'  18  59  ~/file_output.c
+|4,39,18,59,1762217156,"~/file_output.c"
+-'  18  59  ~/file_output.c
+|4,39,18,59,1762217156,"~/file_output.c"
+-'  1  0  ~/file_output.c
+|4,39,1,0,1762217128,"~/file_output.c"
+-'  1  0  ~/file_output.c
+|4,39,1,0,1762217128,"~/file_output.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  26  0  ~/file_size.c
+|4,39,26,0,1762215594,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  1  0  ~/file_size.c
+|4,39,1,0,1762215579,"~/file_size.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215444,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
+-'  21  51  ~/file_create.c
+|4,39,21,51,1762215306,"~/file_create.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/typingtest.c
+	*	1762220254	0
+	"	61	0
+	^	61	0
+	.	60	1
+	+	60	1
+
+> ~/file_output.c
+	*	1762217355	0
+	"	52	0
+	^	52	0
+	.	51	1
+	+	1	8
+	+	1	1
+	+	1	0
+	+	1	2
+	+	51	1
+
+> ~/file_size.c
+	*	1762215593	0
+	"	26	0
+	^	26	1
+	.	26	0
+	+	26	0
+
+> ~/file_create.c
+	*	1762215443	0
+	"	21	51
+	^	21	54
+	.	22	0
+	+	26	9
+	+	22	0
+
+> ~/main.c
+	*	1760946319	0
+	"	19	30
+	^	19	31
+	.	19	30
+	+	1	2
+	+	1	0
+	+	29	0
+	+	1	35
+	+	1	143
+	+	1	185
+	+	1	227
+	+	1	267
+	+	1	277
+	+	1	35
+	+	23	0
+	+	7	49
+	+	1	0
+	+	21	0
+	+	19	30
+
+> ~/Makefile
+	*	1760944834	0
+	"	4	20
+	^	4	21
+	.	4	20
+	+	1	35
+	+	45	62
+	+	3	32
+	+	4	20
+
+> ~/assert_use.c
+	*	1760894161	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/test_my_assert.c
+	*	1760893128	0
+	"	6	0
+	^	6	1
+	.	23	0
+	+	23	0
+
+> ~/my_assert.h
+	*	1760892885	0
+	"	8	66
+	^	8	69
+	.	8	69
+	+	15	5
+	+	4	95
+	+	8	69
 
 > ~/.gitignore
 	*	1760885886	0
@@ -307,14 +396,6 @@
 	.	2	25
 	+	3	15
 	+	2	25
-
-> ~/Makefile
-	*	1760882502	0
-	"	41	33
-	^	45	63
-	.	45	62
-	+	1	35
-	+	45	62
 
 > ~/main_dynamic.c
 	*	1760869655	0
@@ -326,25 +407,6 @@
 	+	11	9
 	+	2	11
 	+	23	40
-
-> ~/main.c
-	*	1760867677	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	2
-	+	1	0
-	+	19	0
-	+	1	35
-	+	1	143
-	+	1	185
-	+	1	227
-	+	1	267
-	+	1	277
-	+	1	35
-	+	13	0
-	+	7	49
-	+	1	0
 
 > ~/src/divide.c
 	*	1760867612	0

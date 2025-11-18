@@ -1,7 +1,8 @@
 # 컴파일러 및 플래그 정의
 CC = gcc
-CFLAGS = -Wall -I./include
-LDFLAGS = -L./lib
+CFLAGS = -Wall -g -I./include -pg  # 디버깅을 위해 -g 옵션 추가
+LDFLAGS = -L./lib -pg
+LIBS = -lcalc
 
 # 생성될 파일 및 디렉토리 이름 정의
 TARGET_STATIC = main_static
@@ -10,36 +11,41 @@ LIB_DIR = lib
 OBJ_DIR = obj
 
 # 소스 및 목적 파일 목록 자동 생성
-SRC_FILES = $(wildcard src/*.c)
-OBJ_FILES = $(patsubst src/%.c, $(OBJ_DIR)/%.o, $(SRC_FILES))
+LIB_SRCS = $(wildcard src/*.c)
+LIB_OBJS = $(patsubst src/%.c, $(OBJ_DIR)/%.o, $(LIB_SRCS))
+MAIN_OBJ = main.o
 
 .PHONY: all clean
 
+# 기본 목표: 정적 및 공유 실행 파일 모두 빌드
 all: $(TARGET_STATIC) $(TARGET_SHARED)
 
-# --- 정적 라이브러리 및 실행 파일 빌드 규칙 ---
-$(TARGET_STATIC): main.c $(LIB_DIR)/libcalc.a
-	$(CC) -static -o $@ main.c $(LDFLAGS) -lcalc -I./include
+# --- 실행 파일 빌드 규칙 ---
+$(TARGET_STATIC): $(MAIN_OBJ) $(LIB_DIR)/libcalc.a
+	$(CC) -static -o $@ $(MAIN_OBJ) $(LDFLAGS) $(LIBS)
 
-# 수정된 부분: ar 명령 실행 전에 lib 디렉토리 생성
-$(LIB_DIR)/libcalc.a: $(OBJ_FILES)
+$(TARGET_SHARED): $(MAIN_OBJ) $(LIB_DIR)/libcalc.so
+	$(CC) -o $@ $(MAIN_OBJ) $(LDFLAGS) $(LIBS)
+
+# --- 라이브러리 빌드 규칙 ---
+$(LIB_DIR)/libcalc.a: $(LIB_OBJS)
 	@mkdir -p $(LIB_DIR)
 	ar rcs $@ $^
 
-# --- 공유 라이브러리 및 실행 파일 빌드 규칙 ---
-$(TARGET_SHARED): main.c $(LIB_DIR)/libcalc.so
-	$(CC) -o $@ main.c $(LDFLAGS) -lcalc -I./include
-
-# 수정된 부분: gcc -shared 명령 실행 전에 lib 디렉토리 생성
-$(LIB_DIR)/libcalc.so: $(OBJ_FILES)
+$(LIB_DIR)/libcalc.so: $(LIB_OBJS)
 	@mkdir -p $(LIB_DIR)
 	$(CC) -shared -o $@ $^
 
 # --- 목적 파일(.o) 생성 규칙 ---
+# src/ 디렉토리의 .c 파일들을 obj/ 디렉토리에 .o 파일로 생성
 $(OBJ_DIR)/%.o: src/%.c
 	@mkdir -p $(OBJ_DIR)
 	$(CC) $(CFLAGS) -fPIC -c -o $@ $<
 
+# 루트 디렉토리의 .c 파일을 .o 파일로 생성 (main.c 용)
+%.o: %.c
+	$(CC) $(CFLAGS) -c -o $@ $<
+
 # --- 프로젝트 정리 규칙 ---
 clean:
-	rm -rf $(OBJ_DIR) $(LIB_DIR) $(TARGET_STATIC) $(TARGET_SHARED)
+	rm -rf $(OBJ_DIR) $(LIB_DIR) $(TARGET_STATIC) $(TARGET_SHARED) $(MAIN_OBJ)

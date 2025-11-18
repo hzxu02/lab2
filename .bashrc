@@ -137,3 +137,4 @@ export PS1='\[\033[01;32m\][\u@\h:\[\033[01;34m\]\w\[\033[00m\]]\$ '
 # 파일에 저장될 명령어의 개수(HISTFILESIZE)를 늘립니다. [cite: 3103, 3107]
 export HISTSIZE=5000
 export HISTFILESIZE=10000
+. "$HOME/.cargo/env"
