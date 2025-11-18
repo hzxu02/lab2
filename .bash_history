@@ -718,3 +718,35 @@ touch typingtest.c
 vi typingtest.c
 gcc -o typingtest typingtest.c
 ./typingtest
+ls
+git remote add origin https://github.com/hzxu02/lab2.git
+git add .
+git commit -m "."
+git add .
+git commit -m "lab1 2번째"
+git push
+echo ".rustup/" >> .gitignore
+git reset HEAD~
+git rm -r --cached .rustup
+git add .
+git commit -m "Fix: 대용량 .rustup 폴더 제외"
+git rm -r --cached .rustup
+ls
+cat .gitinore
+cat .gitignore
+git add,
+git add .
+git commit -m "Fix: 대용량 .rustup 폴더 제외"
+git push origiin master
+git push origin master
+cargo new martix_addition
+ls
+cd martix_addtion
+cd martix_addition
+mkdir src
+ls
+cd src
+touch main.rs
+vi main.rs
+cargo run
+vi main.rs

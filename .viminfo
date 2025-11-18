@@ -11,16 +11,16 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1763435890,,"wq!"
 :wq
-|2,0,1762220255,,"wq"
+|2,0,1763434602,,"wq"
 :qw
 |2,0,1762215443,,"qw"
 :ㅈㅂ
 |2,0,1760869655,,"ㅈㅂ"
 :Wq
 |2,0,1760867411,,"Wq"
-:wq!
-|2,0,1760799809,,"wq!"
 :q!
 |2,0,1760405121,,"q!"
 :2
@@ -46,61 +46,137 @@
 
 # Registers:
 ""1	LINE	0
-	#include <stdio.h>
-|3,1,1,1,1,0,1762217216,"#include <stdio.h>"
+	fn main() {
+|3,1,1,1,1,0,1763434589,"fn main() {"
 "2	LINE	0
-	 #include <sys/stat.h>
-|3,0,2,1,1,0,1762217216," #include <sys/stat.h>"
+	}
+|3,0,2,1,1,0,1763434588,"}"
 "3	LINE	0
-	 #include <fcntl.h>
-|3,0,3,1,1,0,1762217216," #include <fcntl.h>"
+	    println!("Hello, world!");
+|3,0,3,1,1,0,1763434586,"    println!(\"Hello, world!\");"
 "4	LINE	0
-	 #include <unistd.h>
-|3,0,4,1,1,0,1762217216," #include <unistd.h>"
+	#include <stdio.h>
+|3,0,4,1,1,0,1762217216,"#include <stdio.h>"
 "5	LINE	0
-	 int main(int argc, char *argv[])
-|3,0,5,1,1,0,1762217216," int main(int argc, char *argv[])"
+	 #include <sys/stat.h>
+|3,0,5,1,1,0,1762217216," #include <sys/stat.h>"
 "6	LINE	0
-	 {
-|3,0,6,1,1,0,1762217216," {"
+	 #include <fcntl.h>
+|3,0,6,1,1,0,1762217216," #include <fcntl.h>"
 "7	LINE	0
-	 int fd;  /* file descriptor */
-|3,0,7,1,1,0,1762217216," int fd;  /* file descriptor */"
+	 #include <unistd.h>
+|3,0,7,1,1,0,1762217216," #include <unistd.h>"
 "8	LINE	0
-	 char *buf = "This is a test output file.\n";
-|3,0,8,1,1,0,1762217215," char *buf = \"This is a test output file.\\n\";"
+	 int main(int argc, char *argv[])
+|3,0,8,1,1,0,1762217216," int main(int argc, char *argv[])"
 "9	LINE	0
-	 int flags = O_WRONLY | O_CREAT | O_TRUNC;
-|3,0,9,1,1,0,1762217215," int flags = O_WRONLY | O_CREAT | O_TRUNC;"
+	 {
+|3,0,9,1,1,0,1762217216," {"
 "-	CHAR	0
 	습
 |3,0,36,0,1,0,1760799705,"습"
 
 # File marks:
-'0  61  0  ~/typingtest.c
-|4,48,61,0,1762220255,"~/typingtest.c"
-'1  52  0  ~/file_output.c
-|4,49,52,0,1762217356,"~/file_output.c"
-'2  52  0  ~/file_output.c
-|4,50,52,0,1762217228,"~/file_output.c"
-'3  1  59  ~/file_output.c
-|4,51,1,59,1762217156,"~/file_output.c"
-'4  18  59  ~/file_output.c
-|4,52,18,59,1762217156,"~/file_output.c"
-'5  1  59  ~/file_output.c
-|4,53,1,59,1762217156,"~/file_output.c"
-'6  18  59  ~/file_output.c
-|4,54,18,59,1762217156,"~/file_output.c"
-'7  26  0  ~/file_size.c
-|4,55,26,0,1762215594,"~/file_size.c"
-'8  21  51  ~/file_create.c
-|4,56,21,51,1762215444,"~/file_create.c"
-'9  21  51  ~/file_create.c
-|4,57,21,51,1762215306,"~/file_create.c"
+'0  105  0  ~/martix_addition/src/main.rs
+|4,48,105,0,1763435891,"~/martix_addition/src/main.rs"
+'1  1  11  ~/martix_addition/src/main.rs
+|4,49,1,11,1763435630,"~/martix_addition/src/main.rs"
+'2  1  11  ~/martix_addition/src/main.rs
+|4,50,1,11,1763435630,"~/martix_addition/src/main.rs"
+'3  105  0  ~/martix_addition/src/main.rs
+|4,51,105,0,1763435551,"~/martix_addition/src/main.rs"
+'4  105  0  ~/martix_addition/src/main.rs
+|4,52,105,0,1763435551,"~/martix_addition/src/main.rs"
+'5  105  0  ~/martix_addition/src/main.rs
+|4,53,105,0,1763435551,"~/martix_addition/src/main.rs"
+'6  105  0  ~/martix_addition/src/main.rs
+|4,54,105,0,1763434602,"~/martix_addition/src/main.rs"
+'7  105  0  ~/martix_addition/src/main.rs
+|4,55,105,0,1763434602,"~/martix_addition/src/main.rs"
+'8  105  0  ~/martix_addition/src/main.rs
+|4,56,105,0,1763434602,"~/martix_addition/src/main.rs"
+'9  105  0  ~/martix_addition/src/main.rs
+|4,57,105,0,1763434602,"~/martix_addition/src/main.rs"
 
 # Jumplist (newest first):
+-'  105  0  ~/martix_addition/src/main.rs
+|4,39,105,0,1763435891,"~/martix_addition/src/main.rs"
+-'  1  11  ~/martix_addition/src/main.rs
+|4,39,1,11,1763435640,"~/martix_addition/src/main.rs"
+-'  1  11  ~/martix_addition/src/main.rs
+|4,39,1,11,1763435630,"~/martix_addition/src/main.rs"
+-'  105  0  ~/martix_addition/src/main.rs
+|4,39,105,0,1763435577,"~/martix_addition/src/main.rs"
+-'  105  0  ~/martix_addition/src/main.rs
+|4,39,105,0,1763435551,"~/martix_addition/src/main.rs"
+-'  105  0  ~/martix_addition/src/main.rs
+|4,39,105,0,1763434602,"~/martix_addition/src/main.rs"
+-'  1  0  ~/martix_addition/src/main.rs
+|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
+-'  1  0  ~/martix_addition/src/main.rs
+|4,39,1,0,1763434578,"~/martix_addition/src/main.rs"
 -'  61  0  ~/typingtest.c
 |4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  61  0  ~/typingtest.c
+|4,39,61,0,1762220255,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
+-'  1  0  ~/typingtest.c
+|4,39,1,0,1762220247,"~/typingtest.c"
 -'  1  0  ~/typingtest.c
 |4,39,1,0,1762220247,"~/typingtest.c"
 -'  52  0  ~/file_output.c
@@ -108,199 +184,135 @@
 -'  52  0  ~/file_output.c
 |4,39,52,0,1762217356,"~/file_output.c"
 -'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217356,"~/file_output.c"
+-'  52  0  ~/file_output.c
 |4,39,52,0,1762217228,"~/file_output.c"
 -'  52  0  ~/file_output.c
 |4,39,52,0,1762217228,"~/file_output.c"
--'  1  59  ~/file_output.c
-|4,39,1,59,1762217168,"~/file_output.c"
--'  1  59  ~/file_output.c
-|4,39,1,59,1762217168,"~/file_output.c"
--'  1  59  ~/file_output.c
-|4,39,1,59,1762217168,"~/file_output.c"
--'  1  59  ~/file_output.c
-|4,39,1,59,1762217168,"~/file_output.c"
--'  18  59  ~/file_output.c
-|4,39,18,59,1762217156,"~/file_output.c"
--'  18  59  ~/file_output.c
-|4,39,18,59,1762217156,"~/file_output.c"
--'  18  59  ~/file_output.c
-|4,39,18,59,1762217156,"~/file_output.c"
--'  18  59  ~/file_output.c
-|4,39,18,59,1762217156,"~/file_output.c"
--'  1  0  ~/file_output.c
-|4,39,1,0,1762217128,"~/file_output.c"
--'  1  0  ~/file_output.c
-|4,39,1,0,1762217128,"~/file_output.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  26  0  ~/file_size.c
-|4,39,26,0,1762215594,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  1  0  ~/file_size.c
-|4,39,1,0,1762215579,"~/file_size.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215444,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
--'  21  51  ~/file_create.c
-|4,39,21,51,1762215306,"~/file_create.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
+-'  52  0  ~/file_output.c
+|4,39,52,0,1762217228,"~/file_output.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/martix_addition/src/main.rs
+	*	1763435889	0
+	"	105	0
+	^	1	12
+	.	23	70
+	+	1	12
+	+	105	0
+	+	28	79
+	+	27	71
+	+	29	0
+	+	23	70
 
 > ~/typingtest.c
 	*	1762220254	0
