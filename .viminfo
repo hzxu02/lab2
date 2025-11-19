@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1763520384,,"wq!"
+|2,0,1763532473,,"wq!"
 :wq
 |2,0,1763434602,,"wq"
 :qw
@@ -77,34 +77,100 @@
 |3,0,36,0,1,0,1760799705,"습"
 
 # File marks:
-'0  48  0  ~/signal_demo.c
-|4,48,48,0,1763520384,"~/signal_demo.c"
-'1  50  0  ~/signal_demo.c
-|4,49,50,0,1763520300,"~/signal_demo.c"
-'2  50  0  ~/signal_demo.c
-|4,50,50,0,1763520300,"~/signal_demo.c"
-'3  50  0  ~/signal_demo.c
-|4,51,50,0,1763520184,"~/signal_demo.c"
-'4  50  0  ~/signal_demo.c
-|4,52,50,0,1763520184,"~/signal_demo.c"
-'5  60  0  ~/process_demp.c
-|4,53,60,0,1763467406,"~/process_demp.c"
-'6  90  0  ~/typingtest.c
-|4,54,90,0,1763466540,"~/typingtest.c"
-'7  59  0  ~/ls_R_demo.c
-|4,55,59,0,1763443345,"~/ls_R_demo.c"
-'8  59  0  ~/ls_R_demo.c
-|4,56,59,0,1763442326,"~/ls_R_demo.c"
-'9  1  0  ~/ls_R_demo.c
-|4,57,1,0,1763442010,"~/ls_R_demo.c"
+'0  67  0  ~/ipc_pipe.c
+|4,48,67,0,1763532473,"~/ipc_pipe.c"
+'1  67  0  ~/ipc_pipe.c
+|4,49,67,0,1763532438,"~/ipc_pipe.c"
+'2  1  0  ~/ipc_pipe.c
+|4,50,1,0,1763532371,"~/ipc_pipe.c"
+'3  1  0  ~/ipc_pipe.c
+|4,51,1,0,1763532371,"~/ipc_pipe.c"
+'4  1  0  ~/ipc_pipe.c
+|4,52,1,0,1763532371,"~/ipc_pipe.c"
+'5  1  0  ~/ipc_pipe.c
+|4,53,1,0,1763532371,"~/ipc_pipe.c"
+'6  48  0  ~/signal_demo.c
+|4,54,48,0,1763520384,"~/signal_demo.c"
+'7  50  0  ~/signal_demo.c
+|4,55,50,0,1763520300,"~/signal_demo.c"
+'8  50  0  ~/signal_demo.c
+|4,56,50,0,1763520300,"~/signal_demo.c"
+'9  50  0  ~/signal_demo.c
+|4,57,50,0,1763520184,"~/signal_demo.c"
 
 # Jumplist (newest first):
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
 -'  48  0  ~/signal_demo.c
 |4,39,48,0,1763520384,"~/signal_demo.c"
 -'  50  0  ~/signal_demo.c
 |4,39,50,0,1763520361,"~/signal_demo.c"
 -'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520361,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
 |4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520300,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
+-'  50  0  ~/signal_demo.c
+|4,39,50,0,1763520184,"~/signal_demo.c"
 -'  50  0  ~/signal_demo.c
 |4,39,50,0,1763520184,"~/signal_demo.c"
 -'  1  0  ~/signal_demo.c
@@ -113,6 +179,48 @@
 |4,39,1,0,1763520081,"~/signal_demo.c"
 -'  1  0  ~/signal_demo.c
 |4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
+-'  1  0  ~/signal_demo.c
+|4,39,1,0,1763520081,"~/signal_demo.c"
 -'  60  0  ~/process_demp.c
 |4,39,60,0,1763467406,"~/process_demp.c"
 -'  60  0  ~/process_demp.c
@@ -129,178 +237,85 @@
 |4,39,60,0,1763467406,"~/process_demp.c"
 -'  60  0  ~/process_demp.c
 |4,39,60,0,1763467406,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  1  0  ~/process_demp.c
-|4,39,1,0,1763467037,"~/process_demp.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  90  0  ~/typingtest.c
-|4,39,90,0,1763466540,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  1  14  ~/typingtest.c
-|4,39,1,14,1763466109,"~/typingtest.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763443345,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
--'  59  0  ~/ls_R_demo.c
-|4,39,59,0,1763442326,"~/ls_R_demo.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
+-'  60  0  ~/process_demp.c
+|4,39,60,0,1763467406,"~/process_demp.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/ipc_pipe.c
+	*	1763532464	0
+	"	67	0
+	^	67	1
+	.	62	64
+	+	67	0
+	+	16	93
+	+	35	95
+	+	40	64
+	+	43	64
+	+	46	63
+	+	54	95
+	+	57	73
+	+	62	64
 
 > ~/signal_demo.c
 	*	1763520382	0
