@@ -810,3 +810,4 @@ gcc -o process_demo process_demp.c
 git add .
 git commit -m "lab2 실습6: 프로세스 생성(fork) 및 실행(exce) 실습"
 git push origin master
+./chat_mq 2

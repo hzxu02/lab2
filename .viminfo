@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1763532473,,"wq!"
+|2,0,1763533808,,"wq!"
 :wq
 |2,0,1763434602,,"wq"
 :qw
@@ -77,36 +77,206 @@
 |3,0,36,0,1,0,1760799705,"습"
 
 # File marks:
-'0  67  0  ~/ipc_pipe.c
-|4,48,67,0,1763532473,"~/ipc_pipe.c"
-'1  67  0  ~/ipc_pipe.c
-|4,49,67,0,1763532438,"~/ipc_pipe.c"
-'2  1  0  ~/ipc_pipe.c
-|4,50,1,0,1763532371,"~/ipc_pipe.c"
-'3  1  0  ~/ipc_pipe.c
-|4,51,1,0,1763532371,"~/ipc_pipe.c"
-'4  1  0  ~/ipc_pipe.c
-|4,52,1,0,1763532371,"~/ipc_pipe.c"
-'5  1  0  ~/ipc_pipe.c
-|4,53,1,0,1763532371,"~/ipc_pipe.c"
-'6  48  0  ~/signal_demo.c
-|4,54,48,0,1763520384,"~/signal_demo.c"
-'7  50  0  ~/signal_demo.c
-|4,55,50,0,1763520300,"~/signal_demo.c"
-'8  50  0  ~/signal_demo.c
-|4,56,50,0,1763520300,"~/signal_demo.c"
-'9  50  0  ~/signal_demo.c
-|4,57,50,0,1763520184,"~/signal_demo.c"
+'0  9  18  ~/chat_mq.c
+|4,48,9,18,1763533808,"~/chat_mq.c"
+'1  122  0  ~/chat_mq.c
+|4,49,122,0,1763533703,"~/chat_mq.c"
+'2  121  0  ~/chat_mq.c
+|4,50,121,0,1763533703,"~/chat_mq.c"
+'3  116  86  ~/chat_mq.c
+|4,51,116,86,1763533222,"~/chat_mq.c"
+'4  116  86  ~/chat_mq.c
+|4,52,116,86,1763533222,"~/chat_mq.c"
+'5  115  86  ~/chat_mq.c
+|4,53,115,86,1763533222,"~/chat_mq.c"
+'6  115  86  ~/chat_mq.c
+|4,54,115,86,1763533222,"~/chat_mq.c"
+'7  1  0  ~/chat_mq.c
+|4,55,1,0,1763533103,"~/chat_mq.c"
+'8  1  0  ~/chat_mq.c
+|4,56,1,0,1763533103,"~/chat_mq.c"
+'9  1  0  ~/chat_mq.c
+|4,57,1,0,1763533103,"~/chat_mq.c"
 
 # Jumplist (newest first):
+-'  9  18  ~/chat_mq.c
+|4,39,9,18,1763533808,"~/chat_mq.c"
+-'  122  0  ~/chat_mq.c
+|4,39,122,0,1763533779,"~/chat_mq.c"
+-'  121  0  ~/chat_mq.c
+|4,39,121,0,1763533703,"~/chat_mq.c"
+-'  116  86  ~/chat_mq.c
+|4,39,116,86,1763533224,"~/chat_mq.c"
+-'  115  86  ~/chat_mq.c
+|4,39,115,86,1763533224,"~/chat_mq.c"
+-'  115  86  ~/chat_mq.c
+|4,39,115,86,1763533222,"~/chat_mq.c"
+-'  1  0  ~/chat_mq.c
+|4,39,1,0,1763533104,"~/chat_mq.c"
+-'  1  0  ~/chat_mq.c
+|4,39,1,0,1763533104,"~/chat_mq.c"
+-'  1  0  ~/chat_mq.c
+|4,39,1,0,1763533104,"~/chat_mq.c"
+-'  1  0  ~/chat_mq.c
+|4,39,1,0,1763533103,"~/chat_mq.c"
 -'  67  0  ~/ipc_pipe.c
 |4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532473,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
+-'  67  0  ~/ipc_pipe.c
+|4,39,67,0,1763532438,"~/ipc_pipe.c"
 -'  67  0  ~/ipc_pipe.c
 |4,39,67,0,1763532438,"~/ipc_pipe.c"
 -'  1  0  ~/ipc_pipe.c
 |4,39,1,0,1763532373,"~/ipc_pipe.c"
 -'  1  0  ~/ipc_pipe.c
 |4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532373,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
+-'  1  0  ~/ipc_pipe.c
+|4,39,1,0,1763532371,"~/ipc_pipe.c"
 -'  1  0  ~/ipc_pipe.c
 |4,39,1,0,1763532371,"~/ipc_pipe.c"
 -'  48  0  ~/signal_demo.c
@@ -125,182 +295,23 @@
 |4,39,48,0,1763520384,"~/signal_demo.c"
 -'  48  0  ~/signal_demo.c
 |4,39,48,0,1763520384,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520361,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520300,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  50  0  ~/signal_demo.c
-|4,39,50,0,1763520184,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  1  0  ~/signal_demo.c
-|4,39,1,0,1763520081,"~/signal_demo.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
--'  60  0  ~/process_demp.c
-|4,39,60,0,1763467406,"~/process_demp.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
+-'  48  0  ~/signal_demo.c
+|4,39,48,0,1763520384,"~/signal_demo.c"
 
 # History of marks within files (newest to oldest):
+
+> ~/chat_mq.c
+	*	1763533806	0
+	"	9	18
+	^	9	19
+	.	9	19
+	+	122	0
+	+	115	79
+	+	116	86
+	+	8	18
+	+	9	19
 
 > ~/ipc_pipe.c
 	*	1763532464	0
