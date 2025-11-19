@@ -811,3 +811,35 @@ git add .
 git commit -m "lab2 실습6: 프로세스 생성(fork) 및 실행(exce) 실습"
 git push origin master
 ./chat_mq 2
+touch signal_demo.c
+vi signal_demo.c
+gcc -o signal_demo signal_demo.c
+./signal_demo.c
+chmod 777 signal_demo.c
+./signal_demo.c
+vi signal_demo.c
+gcc -o signal_demo signal_demo.c
+./signal_demo
+vi signal_demo.c
+git add .
+git commit -m "lab2 실습7: 시그널 처리 구현"
+git push origin master
+touch ipc_pipe.c
+vi ipc_pipe.c
+gcc -o ipc_pipe ipc_pipe.c
+./ipc_pipe
+git add .
+git commit -m "lab2 실습8 : 파이프를 이용한 IPC 기초 구현"
+git push origin master
+touch chat_mq.c
+vi chat_mq.c
+gcc -o chat_mq chat_mq.c
+vi chat_mq.c
+gcc -o chat_mq chat_mq.c
+./chat_mq 1
+ipcs -q
+ipcrm -q <0>
+ipcrm -q <msqid>
+git add .
+git commit -m "lab2 실습9: 메시지 큐를 이용한 채팅 프로그램 구현"
+git push origin master
