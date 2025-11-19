@@ -777,3 +777,36 @@ git commit -m "lab2 실습3 : C언어 파일 및 디렉토리 함수 사용"
 git push origin master
 touch ls_R_demo.c
 vi ls_R_demo.c
+gcc -o ls_R_demo ls_R_demo.c
+./ls_R_demp
+./ls_R_demo
+ls -R
+vi ls_R_demo.c
+gcc -o ls_R_demo ls_R_demo.c
+./ls_R_demo
+ls -R
+vi ls_R_demo.c
+gcc -o ls_R_demo ls_R_demo.c
+./ls_R_demo
+ls -R
+vi ls_R_demo.c
+git add .
+gir commit -m "실습4 : 'ls -R' 기능 재귀적 구현"
+git commit -m "lab2 실습4: 'ls -R' 기능 재귀적 구현"
+git push origin master
+touch typingtest.c
+vi typingtest.c
+gcc -o typingtest typingtest.c
+./typingtest
+git add .
+git commit -m "lab2 실습5: 타자 연습 프로그램"
+git push origin master
+touch process_demo.c
+
+gcc -o process_demo process_demo.c
+./process_demo
+gcc -o process_demo process_demp.c
+./process_demo
+git add .
+git commit -m "lab2 실습6: 프로세스 생성(fork) 및 실행(exce) 실습"
+git push origin master
