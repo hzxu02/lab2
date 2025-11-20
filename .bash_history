@@ -843,3 +843,16 @@ ipcrm -q <msqid>
 git add .
 git commit -m "lab2 실습9: 메시지 큐를 이용한 채팅 프로그램 구현"
 git push origin master
+gcc -o shm_copy shm_copy.c
+touch shm_copy.c
+vi shm_copy.c
+gcc -o shm_copy shm_copy.c
+echo "This is a shared memory copy test file." > source.txt
+./shm_copy source.txt copied.txt
+cat copied.txt
+diff source.txt copied.txt
+git add .
+git commit -m "lab2 실습10: 공유 메모리와 세마포어를 이용한 파일 복사"
+git push origin master
+./dbus_client
+./dbus_client "실습11번 DBus 테스트"
